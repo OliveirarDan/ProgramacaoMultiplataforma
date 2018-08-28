@@ -1,3 +1,5 @@
+/** Danilo Rodrigues Oliveira    RA: 81612248    SIN3AN-BUA */
+
 package br.usjt.sin.progmulti.meuprimeiroap;
 
 import android.app.Activity;

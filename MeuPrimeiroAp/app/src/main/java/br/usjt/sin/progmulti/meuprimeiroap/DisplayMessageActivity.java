@@ -1,11 +1,14 @@
-package br.usjt.sin.progmulti.meuprimeiroap;
+/** Danilo Rodrigues Oliveira    RA: 81612248    SIN3AN-BUA */
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.ViewGroup;
-import android.widget.TextClock;
-import android.widget.TextView;
+
+        package br.usjt.sin.progmulti.meuprimeiroap;
+
+        import android.app.Activity;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.ViewGroup;
+        import android.widget.TextClock;
+        import android.widget.TextView;
 
 public class DisplayMessageActivity extends Activity {
 
