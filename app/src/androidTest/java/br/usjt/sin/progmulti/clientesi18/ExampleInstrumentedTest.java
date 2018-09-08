@@ -1,4 +1,4 @@
-package br.usjt.sin.progmulti.atividadessi2018;
+package br.usjt.sin.progmulti.clientesi18;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("br.usjt.sin.progmulti.atividadessi2018", appContext.getPackageName());
+        assertEquals("br.usjt.sin.progmulti.clientesi18", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package br.usjt.sin.progmulti.atividadessi2018;
+package br.usjt.sin.progmulti.clientesi18;
 
 import org.junit.Test;
 
