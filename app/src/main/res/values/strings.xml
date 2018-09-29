@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FilmesDB</string>
+    <string name="detalhe_descricao">Descrição: </string>
+    <string name="detalhe_diretor">Diretor: </string>
+</resources>
