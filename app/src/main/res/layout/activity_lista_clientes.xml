@@ -5,19 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListaClienteActivity">
+    tools:context=".ListaClientesActivity">
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lista_clientes"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        />
-
-        />
-
-
-        <!-- android:onClick="enviarCliente"/> -->
+        android:id="@+id/lista_clientes"/>
 
 </LinearLayout>

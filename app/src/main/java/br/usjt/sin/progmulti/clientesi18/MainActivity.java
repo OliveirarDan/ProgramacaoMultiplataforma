@@ -1,5 +1,6 @@
 /** Danilo Rodrigues Oliveira    RA: 81612248    SIN3AN-BUA */
 
+
 package br.usjt.sin.progmulti.clientesi18;
 
 import android.app.Activity;
@@ -9,7 +10,6 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends Activity {
-
     private EditText editText;
     public static final String BUSCA = "br.usjt.sin.progmulti.clientesi18.busca";
 
@@ -22,10 +22,17 @@ public class MainActivity extends Activity {
 
     public void buscarClientes(View view) {
         String texto = editText.getText().toString();
-        Intent intent = new Intent(this,ListaClienteActivity.class);
+        Intent intent = new Intent(this, ListaClientesActivity.class);
         intent.putExtra(BUSCA, texto);
         startActivity(intent);
-
-
     }
 }
+
+
+
+
+
+
+
+
+
