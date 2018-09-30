@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetalheFilmeActivity extends Activity {
-    private TextView titulo, descricao, diretor;
+    private TextView titulo, descricao, diretor, popularidade;
     private ImageView foto;
 
 
@@ -21,6 +21,7 @@ public class DetalheFilmeActivity extends Activity {
         descricao = findViewById(R.id.detalhe_txt_descricao);
         diretor = findViewById(R.id.detalhe_txt_diretor);
         foto = findViewById(R.id.detalhe_foto_filme);
+        popularidade = findViewById(R.id.detalhe_txt_popularidade);
 
         Intent intent = getIntent();
         Filme filme = (Filme)intent.getSerializableExtra(ListaFilmesActivity.FILME);
@@ -28,5 +29,7 @@ public class DetalheFilmeActivity extends Activity {
         descricao.setText(filme.getDescricao().toString());
         diretor.setText(filme.getDiretor().toString());
         foto.setImageDrawable(Util.getImagem(this,filme.getFoto()));
+
+        popularidade.setText(String.valueOf(filme.getPopularidade()));
     }
 }
