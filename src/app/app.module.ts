@@ -17,12 +17,14 @@ import { DestinoPageModule } from '../pages/destino/destino.module';
 import { DestinoGPageModule } from '../pages/destino-g/destino-g.module';
 import {HttpModule} from "@angular/http";
 import { MovieProvider } from '../providers/movie/movie';
+import { GeneroPage } from '../pages/genero/genero';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     TabsPage,
+    GeneroPage,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { MovieProvider } from '../providers/movie/movie';
   entryComponents: [
     MyApp,
     HomePage,
-    TabsPage
+    TabsPage,
+    GeneroPage
   ],
   providers: [
     StatusBar,

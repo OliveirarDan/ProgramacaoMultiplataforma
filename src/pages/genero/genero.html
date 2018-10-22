@@ -13,12 +13,22 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
+
+    <ion-content>
+        <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+        <ion-card *ngFor="let genero of generos">
+          <ion-card-header>
+            <h2>{{genero.name}}</h2>
+          </ion-card-header>
+        </ion-card>
+  <!--
   <ion-list>
     <ion-item *ngFor="let genero of generos" (click)="irParaDestino(genero)">
       <h2>{{genero.nome}}</h2>
       <p>{{genero.descricao}}</p>
     </ion-item>
   </ion-list>
+  -->
 
 </ion-content>

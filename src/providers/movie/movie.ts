@@ -31,4 +31,9 @@ export class MovieProvider {
 
       
 
+      getGenres() {
+        return this.http.get(this.baseApiPath + '/genre/movie/list?api_key='
+          + this.getApiKey());
+      }
+
 }
