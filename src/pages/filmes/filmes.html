@@ -1,0 +1,43 @@
+<!--  Danilo Rodrigues Oliveira   RA: 81612248 -->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Filmes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+
+  <ion-fab right bottom>
+    <button ion-fab mini>
+      <ion-icon name="add"></ion-icon>
+    </button>
+    <ion-fab-list side="top">
+      <button ion-fab>
+        <ion-icon name="trash"></ion-icon>
+      </button>
+      <button ion-fab>
+        <ion-icon name="create"></ion-icon>
+      </button>
+      <button ion-fab (click)="exibirFilmes()">
+        <ion-icon name="search"></ion-icon>
+      </button>
+      <button ion-fab (click)="cadastrarFilme()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+
+
+
+
+    </ion-fab-list>
+
+
+  </ion-fab>
+
+
+
+</ion-content>
